@@ -2,9 +2,9 @@ import { download } from "https://deno.land/x/download@v2.0.2/mod.ts";
 import { decompress } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 
 const VERSION = '1.0.0a';
-const zipFile = `https://github.com/spaceflounder/yart/archive/refs/heads/main.zip`;
+const zipFile = `https://github.com/spaceflounder/yart-shell/archive/refs/heads/main.zip`;
 
-const helpUrl = `https://github.com/spaceflounder/yart/wiki/YAML-Adventure-RunTime`;
+const helpUrl = `https://github.com/spaceflounder/yart-shell/wiki/YAML-Adventure-RunTime`;
 
 const usageMsg = `
 
